@@ -46,8 +46,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### 图片图标
 ```
-图片图标文件尽量使用七牛云存储
-地址 https://portal.qiniu.com/kodo/bucket/resource/upload?bucketName=pisen-power
+图片图标文件尽量使用网络存储
 图片使用 <img v-lazy="img.src" />
 官方文档地址 https://www.npmjs.com/package/vue-lazyload
 ```
