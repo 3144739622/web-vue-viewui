@@ -1,0 +1,54 @@
+{
+  "name": "view-ui-project-vuecli",
+  "version": "1.0.0",
+  "description": "a template project for vue3, vue-router, vuex, ViewUIPlus and @vue/cli.",
+  "scripts": {
+    "serve": "vue-cli-service serve --mode dev",
+    "serve:pro": "vue-cli-service serve --mode pro",
+    "serve:test": "vue-cli-service serve --mode test",
+    "build": "vue-cli-service build --mode pro",
+    "build:dev": "vue-cli-service build --mode dev",
+    "build:test": "vue-cli-service build --mode test",
+    "build:staging": "vue-cli-service build --mode=staging",
+    "lint": "eslint ./src --ext .js,.vue",
+    "lint:fix": "eslint ./src --ext .js,.vue --fix",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "core-js": "^3.8.3",
+    "view-ui-plus": "^1.1.0",
+    "vue": "^3.2.13",
+    "vue-router": "^4.0.3",
+    "vuex": "^4.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "babel-plugin-import": "^1.13.5",
+    "husky": "^7.0.4",
+    "less": "^4.0.0",
+    "less-loader": "^10.2.0",
+    "style-resources-loader": "^1.4.1",
+    "vue-cli-plugin-style-resources-loader": "~0.1.5",
+    "vue-lazyload": "^3.0.0-rc.2",
+    "@vue/cli-plugin-eslint": "^3.3.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "eslint-plugin-html": "^6.0.3",
+    "eslint": "5.0.0",
+    "eslint-friendly-formatter": "4.0.1",
+    "eslint-loader": "2.0.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-vue": "4.7.1"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "engines": {
+    "node": ">= 12.0.0",
+    "npm": ">= 6.9.0"
+  }
+}
